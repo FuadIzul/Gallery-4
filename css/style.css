@@ -11,6 +11,7 @@
 body {
   /* background: radial-gradient(orange, red); */
   background-color: #999;
+  background: linear-gradient(rgb(236, 235, 235), rgb(8, 8, 8));
   font-family: kaushan regular;
 }
 
@@ -185,6 +186,56 @@ nav li a:hover {
 
 .overlay:target .prev {
   animation: prev 0.4s;
+}
+
+.artikel-main {
+  width: 45vw;
+  padding: 1.5em;
+  word-spacing: 0.5em;
+  letter-spacing: 0.1em;
+  line-height: 1.3em;
+  float: left;
+}
+
+.artikel-main h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.7em;
+}
+
+.sidebar {
+  width: 29vw;
+  padding: 1em;
+  margin-top: 0.7em;
+  float: right;
+}
+
+.sidebar h3 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.sidebar img {
+  height: 8vw;
+  padding: 0.6em;
+  float: left;
+}
+
+.sidebar p {
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+}
+
+.footer {
+  background-color: whitesmoke;
+  padding: 1em;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.8em;
 }
 
 @keyframes animasi-img {
